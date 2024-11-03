@@ -1,0 +1,326 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFEBEE">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/your_points_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Your Points"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:background="#E91E63"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:id="@+id/your_points_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:textSize="16sp"
+                android:textColor="#E91E63"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/life_points_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Life Points"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:background="#E91E63"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:id="@+id/life_points_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="16sp"
+                android:textColor="#E91E63"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="#E91E63"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"/>
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textColorHint="#E91E63"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/strenght_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Strenght"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/strenght_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <SeekBar
+            android:id="@+id/strenght_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="7"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/dexterity_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dexterity"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/dexterity_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <SeekBar
+            android:id="@+id/dexterity_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="7"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/intelligence_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Intelligence"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/intelligence_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <SeekBar
+            android:id="@+id/intelligence_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="7"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/wisdom_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Wisdom"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/wisdom_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <SeekBar
+            android:id="@+id/wisdom_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="7"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/charisma_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Charisma"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/charisma_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/charisma_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="7"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/constitution_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Constitution"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/constitution_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/constitution_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="7"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/race_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Race"
+            android:textSize="18sp"
+            android:textColor="#E91E63"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"/>
+
+        <Spinner
+            android:id="@+id/race_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:textSize="18sp"
+            android:backgroundTint="#E91E63"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

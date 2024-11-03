@@ -26,4 +26,4 @@ This application is inspired by the game **Dungeons & Dragons**, providing an en
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/HelloKittyCharacterCreator.git
+   git clone https://github.com/isabelaclass/DungeonsAndDragonsAppV2.git

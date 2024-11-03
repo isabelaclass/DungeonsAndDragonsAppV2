@@ -1,5 +1,7 @@
 # Dungeons & Dragons Hello Kitty Character Creator
 
+![Hello Kitty Theme](https://github.com/isabelaclass/DungeonsAndDragonsAppV2/blob/main/DungeonsAndDragonsHelloKitty.png)
+
 ## Overview
 
 Welcome to the **Hello Kitty Character Creator**! This mobile application was developed as part of a mobile app development course, where I built both the back-end and front-end. The app features a fun and feminine design inspired by Hello Kitty, offering a delightful experience for users to create and manage their own characters.
